@@ -1,0 +1,168 @@
+/* Define estilos para el elemento con clase .curriculom */
+.curriculom {
+    margin-left: 10%; /* Margen izquierdo del 10% del contenedor padre */
+
+    width: 78%; /* Ancho del 66.5% del contenedor padre */
+    height: 1500px; /* Altura de 202px */
+    margin-top: 10%; /* Margen superior del 0.3% */
+    margin-left: 7.5%; /* Margen izquierdo del 7.5% */
+    position: absolute; /* Establece posición absoluta */
+    margin: 0 auto; /* Centra el cuerpo horizontalmente */
+    border: 5px solid (211, 208, 208); /* Borde sólido de 5px de color gris */
+    background-color: rgb(211, 208, 208); /* Color de fondo del cuerpo */
+}
+
+
+/* Define estilos para el elemento body */
+body {
+    background-color: rgb(111, 111, 111); /* Color de fondo del cuerpo */
+    width: 1000px; /* Ancho exacto del cuerpo */
+    height: 2000px; /* Altura exacta del cuerpo */
+    margin: 0 auto; /* Centra el cuerpo horizontalmente */
+}
+
+/* Define estilos para el contenedor con clase .containerALL */
+.containerALL {
+    display: grid; /* Utiliza el modelo de caja grid */
+    grid-template-columns: 50% 50%; /* Divide el contenedor en dos columnas iguales */
+    }
+
+/* Define estilos para el elemento con clase .espacio1 */
+.espacio1 {
+    width: 100%; /* Ancho del 98% del contenedor padre */
+    height: 270px; /* Altura de 250px */
+    text-align: end; /* Alinea el texto a la derecha */
+}
+
+/* Define estilos para el elemento con clase .borde */
+.borde {
+    width: 70%; /* Ancho del 66.5% del contenedor padre */
+    height: 200px; /* Altura de 202px */
+    margin-top: 0.3%; /* Margen superior del 0.3% */
+    margin-left: 7.5%; /* Margen izquierdo del 7.5% */
+    position: absolute; /* Establece posición absoluta */
+    border: 5px solid #691111; /* Borde sólido de 5px de color gris */
+}
+
+/* Define estilos para el elemento con clase .img */
+.img {
+    width: 40%; /* Ancho del 34% del contenedor padre */
+    margin-left: 7.5%; /* Margen izquierdo del 7.5% */
+    border: solid 15px rgb(64, 52, 20); /* Borde sólido de 15px de color RGB */
+    max-width: 150%; /* Ajusta el tamaño máximo de la imagen al 150% */
+}
+
+/* Define estilos para el elemento con clase .nombre */
+.nombre {
+    font-family: "Pacifico", cursive; /* Tipo de fuente */
+    font-weight: 400; /* Grosor de la fuente */
+    font-style: normal; /* Estilo de la fuente */
+}
+
+/* Define estilos para el elemento con clase .info */
+.info {
+    font-family: "Great Vibes", cursive; /* Tipo de fuente */
+    font-weight: 400; /* Grosor de la fuente */
+    font-style: normal; /* Estilo de la fuente */
+    line-height: 5%; /* Altura de línea del 5% */
+    
+}
+.educacion5{
+
+    text-align: center; /* Alinea el texto al centro */ 
+}
+
+/* Define estilos para el elemento con clase .tituloEdu */
+.tituloEdu {
+    padding-left: 15px; /* Relleno a la izquierda de 15px */
+    border-left: 3px solid rgb(247, 244, 244); /* Borde izquierdo sólido de 3px de color gris */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Define estilos para el elemento con clase .cole */
+.cole {
+    padding-left: 15px; /* Relleno a la izquierda de 15px */
+    border-left: 3px solid gray; /* Borde izquierdo sólido de 3px de color gris */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Define estilos para el elemento con clase .espacio3 */
+.espacio3 {
+    width: 350px; /* Ancho de 350px */
+    padding: 5%; /* Relleno del 5% */
+    border: 5px solid #f4f2f2; /* Borde sólido de 5px de color gris */
+    background-color: rgb(190, 205, 200); /* Color de fondo */
+    font-family: "Pacifico", cursive; /* Tipo de fuente */
+}
+
+/* Define estilos para el elemento con clase .uni */
+.uni {
+    padding-left: 15px; /* Relleno a la izquierda de 15px */
+    border-left: 3px solid gray; /* Borde izquierdo sólido de 3px de color gris */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Define estilos para el elemento con clase .curso */
+.curso {
+    padding-left: 15px; /* Relleno a la izquierda de 15px */
+    border-left: 3px solid rgb(238, 236, 236); /* Borde izquierdo sólido de 3px de color gris */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Define estilos para el elemento con clase .espacio4 */
+.espacio4 {
+    width: 350px; /* Ancho de 350px */
+    padding: 5%; /* Relleno del 5% */
+    border: 5px solid rgb(211, 208, 208); /* Borde sólido de 5px de color gris */
+    font-family: "Pacifico", cursive; /* Tipo de fuente */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+
+/* Define estilos para el elemento con clase .espacio5 */
+.espacio5 {
+    width: 350px; /* Ancho de 350px */
+    height: 160px; /* Altura de 150px */
+    display: grid; /* Utiliza el modelo de caja grid */
+    padding: 5%; /* Relleno del 5% */
+    border: 5px solid rgb(211, 208, 208) /* Borde sólido de 5px de color gris */
+
+    
+}
+.letra{
+    font-family: "Pacifico", cursive; /* Tipo de fuente */
+
+}
+/* Define estilos para el elemento con clase .espacio6 */
+.espacio6 {
+    margin-right: 20%; /* Margen derecho del 20% */
+    padding: 5%; /* Relleno del 5% */
+    border: 5px solid #eeeeee; /* Borde sólido de 5px de color gris */
+    background-color: rgb(190, 205, 200); /* Color de fondo */
+    display: flex; /* Utiliza el modelo de caja flex */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+/* Define estilos para el elemento con clase .item */
+.item {
+    display: flex; /* Utiliza el modelo de caja flex */
+    align-items: center; /* Alinea los elementos verticalmente */
+    margin-right: 5px; /* Margen derecho de 20px */
+}
+
+/* Define estilos para el elemento con clase .imagen */
+.imagen {
+    width: 40px; /* Establece el ancho de todas las imágenes */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-right: 0.5px; /* Margen derecho de 10px */
+}
+
+/* Define estilos para los elementos con clases .educacion5, .experiencia, .conocimientos */
+.educacion5,
+.experiencia,
+.conocimientos {
+    font-family: "Pacifico", cursive; /* Tipo de fuente */
+    font-size: 40px; /* Tamaño de fuente de 40px */
+    color: black; /* Color de texto negro */
+    background: linear-gradient(rgb(232, 161, 230), aliceblue); /* Fondo con degradado lineal */
+}
