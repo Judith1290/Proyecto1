@@ -29,25 +29,27 @@ body {
 
 /* Define estilos para el elemento con clase .espacio1 */
 .espacio1 {
-    width: 100%; /* Ancho del 98% del contenedor padre */
+    width: 98%; /* Ancho del 98% del contenedor padre */
     height: 270px; /* Altura de 250px */
-    text-align: end; /* Alinea el texto a la derecha */
+    text-align-last: right; /* Alinea el texto a la derecha */
+    margin-left: 70px;
 }
 
 /* Define estilos para el elemento con clase .borde */
 .borde {
-    width: 70%; /* Ancho del 66.5% del contenedor padre */
-    height: 200px; /* Altura de 202px */
+    width: 74%; /* Ancho del 75% del contenedor padre */
+    height: 209px; /* Altura de 202px */
     margin-top: 0.3%; /* Margen superior del 0.3% */
     margin-left: 7.5%; /* Margen izquierdo del 7.5% */
     position: absolute; /* Establece posición absoluta */
-    border: 5px solid #691111; /* Borde sólido de 5px de color gris */
+    border: 5px solid #f7f6f6; /* Borde sólido de 5px de color gris */
 }
 
 /* Define estilos para el elemento con clase .img */
 .img {
     width: 40%; /* Ancho del 34% del contenedor padre */
-    margin-left: 7.5%; /* Margen izquierdo del 7.5% */
+    margin-left:20%; /* Margen derecho del 7.5% */
+
     border: solid 15px rgb(64, 52, 20); /* Borde sólido de 15px de color RGB */
     max-width: 150%; /* Ajusta el tamaño máximo de la imagen al 150% */
 }
@@ -93,6 +95,7 @@ body {
     border: 5px solid #f4f2f2; /* Borde sólido de 5px de color gris */
     background-color: rgb(190, 205, 200); /* Color de fondo */
     font-family: "Pacifico", cursive; /* Tipo de fuente */
+    
 }
 
 /* Define estilos para el elemento con clase .uni */
@@ -166,3 +169,12 @@ body {
     color: black; /* Color de texto negro */
     background: linear-gradient(rgb(232, 161, 230), aliceblue); /* Fondo con degradado lineal */
 }
+
+.canv{
+
+
+    margin-top: 200px;
+}
+
+
+
